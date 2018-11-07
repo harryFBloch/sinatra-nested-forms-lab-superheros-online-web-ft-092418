@@ -1,3 +1,16 @@
+<% #binding.pry %>
+<h1>Team Name: <%= @team_hash[:team].values[0] %></h1>
 
+<h2>Team Motto: <%= @team_hash[:team].values[1] %></h2>
 
+<h2>Hero Name: <%= @team_hash[:team][:heroes][0][:name] %></h2>
+<p> Hero Power: <%= @team_hash[:team][:heroes][0][:power] %></p>
+<p> Hero Biography: <%= @team_hash[:team][:heroes][0][:biography] %></p>
 
+<h2>Hero Name: <%= @team_hash[:team][:heroes][1][:name] %></h2>
+<p> Hero Power: <%= @team_hash[:team][:heroes][1][:power] %></p>
+<p> Hero Biography: <%= @team_hash[:team][:heroes][1][:biography] %></p>
+
+<h2>Hero Name: <%= @team_hash[:team][:heroes][2][:name] %></h2>
+<p> Hero Power: <%= @team_hash[:team][:heroes][2][:power] %></p>
+<p> Hero Biography: <%= @team_hash[:team][:heroes][2][:biography] %></p>
